@@ -16,11 +16,11 @@ Profil.defaultProps = {
   FullName:"Votre nom"
 
 }
-// Profil.PropTypes = {
-//   FullName:PropTypes.string,
-//   Bio : PropTypes.string
+Profil.propTypes = {
+  FullName:PropTypes.string,
+  Bio : PropTypes.string
   
-// }
+}
 export default Profil
 
 
